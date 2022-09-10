@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<div id="openseadragon" style="width: 800px; height: 600px;"></div>
+    <script src="https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/openseadragon.min.js"></script>
+    <script type="text/javascript">
+        var viewer = OpenSeadragon({
+            id: "openseadragon",
+            prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
+            tileSources:   [{
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/10-segantini.jpg",
+              "height": 8176,
+              "width": 6128,
+              "profile": [ "http://iiif.io/api/image/2/level2.json" ],
+              "protocol": "http://iiif.io/api/image",
+              "tiles": [{
+                "scaleFactors": [ 1, 2, 4, 8, 16, 32 ],
+                "width": 1024
+              }]
+            }]
+        });
+    </script>
+<div class="w3-container w3-padding-32" id="segantini">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">
+The Punishment of Lust (1891)</h3>
+    <p>This is one of the first symbolist works by Segantini, an Italian artist. It is based on a poem, Nirvana, by Luigi Illica, one of Puccini's librettists.
+Both the poem and this painting describe the progress of mothers guilty of child neglect (or worse) through a Buddhist purgatory represented by the cold, dismal, leafless valley in the foreground. After thus paying for their sins they will eventually attain Nirvana, a Buddhist heaven, represented by the distant splendid mountain range carefully painted by Segantini from the Swiss Alps near St Moritz. The floating figures are presumably the ‘souls’ of wicked mothers at different stages of redemption. The painting is perhaps a protest at the emancipation of women from their traditional role as mothers, about which Segantini felt strongly. A previous title, written on the frame, was a mistranslation of the Italian for lust, lussuria.
+    </p>

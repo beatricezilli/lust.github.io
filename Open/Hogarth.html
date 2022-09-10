@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<div id="openseadragon" style="width: 800px; height: 600px;"></div>
+    <script src="https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/openseadragon.min.js"></script>
+    <script type="text/javascript">
+        var viewer = OpenSeadragon({
+            id: "openseadragon",
+            prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
+            tileSources:   [{
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/07-hogarth.jpg",
+              "height": 8176,
+              "width": 6128,
+              "profile": [ "http://iiif.io/api/image/2/level2.json" ],
+              "protocol": "http://iiif.io/api/image",
+              "tiles": [{
+                "scaleFactors": [ 1, 2, 4, 8, 16, 32 ],
+                "width": 1024
+              }]
+            }]
+        });
+    </script>
+    
+<div class="w3-container w3-padding-32" id="hogarth">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">
+Marriage A-la-Mode: 2, The Tête à Tête (about 1743)</h3>
+    <p>The house is in a state of disorder, with knocked chairs and unpaid bills. The Viscount is shown exhausted, perhaps from a night spent at a brothel, due to the large black spot on his neck, a sign that he has caught syphilis. The pet dog is shown sniffing the lady's cap he has stuffed in his pocket, which is further evidence of his adultery. The Viscountess is having tea for one, representative of her own independent existence, while her slouched posture and unkempt manner is an indication of her own unfaithfulness. In addition to criticising their lustful habits,
+   
+        there are other symbols that pertain to additional vices, such as the broken sword from a fight (wrath) and their contentment with domestic squalor (sloth).
+    </p>

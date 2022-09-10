@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<div id="openseadragon" style="width: 800px; height: 600px;"></div>
+    <script src="https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/openseadragon.min.js"></script>
+    <script type="text/javascript">
+        var viewer = OpenSeadragon({
+            id: "openseadragon",
+            prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
+            tileSources:   [{
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/01-bronzino.jpg",
+              "height": 8176,
+              "width": 6128,
+              "profile": [ "http://iiif.io/api/image/2/level2.json" ],
+              "protocol": "http://iiif.io/api/image",
+              "tiles": [{
+                "scaleFactors": [ 1, 2, 4, 8, 16, 32 ],
+                "width": 1024
+              }]
+            }]
+        });
+    </script>
+    
+<div class="w3-container w3-padding-32" id="bronzino">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">An Allegory with Venus and Cupid (1540-46)</h3>
+    <p> This is one of Bronzino’s most complex and enigmatic paintings. It contains a tangle of moral messages, presented in a sexually explicit image. Venus, goddess of love, steals an arrow from her son Cupid’s quiver as she kisses him on the lips. Cupid fondles Venus‘ breast, his bare buttocks provocatively thrust out as he returns her kiss and attempts to steal her crown.
+   
+The masks at Venus’ feet suggest that she and Cupid exploit lust to mask deception. The howling figure on the left may be Jealousy; the boy scattering roses and stepping on a thorn could be Folly or Pleasure; the hybrid creature with the face of a girl, Fraud or Deceit. Winged Father Time battles with mask-like Oblivion to either reveal or conceal the scene.
+</p>
+    
+    

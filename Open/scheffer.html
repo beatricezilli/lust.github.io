@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<div id="openseadragon" style="width: 800px; height: 600px;"></div>
+    <script src="https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/openseadragon.min.js"></script>
+    <script type="text/javascript">
+        var viewer = OpenSeadragon({
+            id: "openseadragon",
+            prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@2.4/build/openseadragon/images/",
+            tileSources:   [{
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/09-scheffer.jpg",
+              "height": 8176,
+              "width": 6128,
+              "profile": [ "http://iiif.io/api/image/2/level2.json" ],
+              "protocol": "http://iiif.io/api/image",
+              "tiles": [{
+                "scaleFactors": [ 1, 2, 4, 8, 16, 32 ],
+                "width": 1024
+              }]
+            }]
+        });
+    </script>
+    
+<div class="w3-container w3-padding-32" id="scheffer">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">
+Francesca da Rimini (1835)</h3>
+    <p>
+In Ary Scheffer's 1835 Francesca da Rimini, Scheffer shows Dante and his guide, the Roman poet Virgil, observing the tragic couple configured in a lustful tryst, now condemned to the circle of hell. The author George Eliot said that she 'could look at it for hours’.
+Love and Desire touches on everything from nature to religion. But the nuanced – sometimes troubling, always fascinating – depictions of women are what stand out. The Pre-Raphaelites showed women as sexual creatures, capable of sensuality, lust and carnal passion, even if such behaviour is, in many stories they tell, punished.
+While the Pre-Raphaelites were more liberal in lifestyle, the tales they chose to depict often showed the consequences of passion run amok. Ophelia, spurned by her lover (who, it is hinted in Hamlet, she has slept with) drowns herself.
+   
+There is one message: that desire, lust and the awakening of sexuality has dire consequences.
+
+    </p>
