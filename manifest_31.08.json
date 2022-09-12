@@ -1,0 +1,658 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://0b385233-406f-4520-98ab-329a07970b8f",
+	"@type": "sc:Manifest",
+	"metadata": [
+		{
+			"label": "Label",
+			"value": "Value"
+		}
+	],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://15af23e6-c957-488b-9e19-4ccfc9c7012e",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://529c6f46-3819-42b3-bbf5-0a14ef8a1890",
+					"@type": "sc:Canvas",
+					"label": "An Allegory with Venus and Cupid",
+					"height": 800,
+					"width": 635,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://1966dca4-087b-45cb-80f3-8162017abc59",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/01-bronzino.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/01-bronzino.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"supports": [
+												"canonicalLinkHeader",
+												"profileLinkHeader",
+												"mirroring",
+												"rotationArbitrary",
+												"sizeAboveFull"
+											],
+											"qualities": [
+												"default",
+												"color",
+												"gray",
+												"bitonal"
+											],
+											"formats": [
+												"jpg",
+												"png",
+												"gif",
+												"webp"
+											]
+										}
+									]
+								},
+								"height": 800,
+								"width": 635
+							},
+							"on": "http://529c6f46-3819-42b3-bbf5-0a14ef8a1890"
+						}
+					],
+					"related": "(1540-46) by Bronzino"
+				},
+				{
+					"@id": "http://1b2c29d0-31b1-4683-8326-f4a745bc2919",
+					"@type": "sc:Canvas",
+					"label": "Lust",
+					"height": 1054,
+					"width": 800,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://689245b7-e6b8-4079-9c69-4a96c8dee919",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/02-byle.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/02-byle.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"supports": [
+												"canonicalLinkHeader",
+												"profileLinkHeader",
+												"mirroring",
+												"rotationArbitrary",
+												"sizeAboveFull"
+											],
+											"qualities": [
+												"default",
+												"color",
+												"gray",
+												"bitonal"
+											],
+											"formats": [
+												"jpg",
+												"png",
+												"gif",
+												"webp"
+											]
+										}
+									]
+								},
+								"height": 1054,
+								"width": 800
+							},
+							"on": "http://1b2c29d0-31b1-4683-8326-f4a745bc2919"
+						}
+					],
+					"related": "(2019) by Matt Byle"
+				},
+				{
+					"@id": "http://8be85173-6cb4-4ff3-b4f4-6e991e688f96",
+					"@type": "sc:Canvas",
+					"label": "Trust Lust",
+					"height": 1487,
+					"width": 2000,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://fff278ff-f6a9-4b73-bdfc-ee2564460e66",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/03-copley.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/03-copley.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"supports": [
+												"canonicalLinkHeader",
+												"profileLinkHeader",
+												"mirroring",
+												"rotationArbitrary",
+												"sizeAboveFull"
+											],
+											"qualities": [
+												"default",
+												"color",
+												"gray",
+												"bitonal"
+											],
+											"formats": [
+												"jpg",
+												"png",
+												"gif",
+												"webp"
+											]
+										}
+									]
+								},
+								"height": 1487,
+								"width": 2000
+							},
+							"on": "http://8be85173-6cb4-4ff3-b4f4-6e991e688f96"
+						}
+					],
+					"related": "(1988) by William Copley"
+				},
+				{
+					"@id": "http://32ebb820-1a3e-4f38-82ea-5d5302868b03",
+					"@type": "sc:Canvas",
+					"label": "A Loving Couple",
+					"height": 800,
+					"width": 621,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://fa1ddec4-e0ce-4616-a6c0-0ede7b5156fe",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/04-delange.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/04-delange.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"supports": [
+												"canonicalLinkHeader",
+												"profileLinkHeader",
+												"mirroring",
+												"rotationArbitrary",
+												"sizeAboveFull"
+											],
+											"qualities": [
+												"default",
+												"color",
+												"gray",
+												"bitonal"
+											],
+											"formats": [
+												"jpg",
+												"png",
+												"gif",
+												"webp"
+											]
+										}
+									]
+								},
+								"height": 800,
+								"width": 621
+							},
+							"on": "http://32ebb820-1a3e-4f38-82ea-5d5302868b03"
+						}
+					],
+					"related": "Jacques de L'Ange (1632))"
+				},
+				{
+					"@id": "http://f18cdfb9-f6a5-461a-9dea-acf7605f72e1",
+					"@type": "sc:Canvas",
+					"label": "The Garden of Earthly Delights",
+					"height": 2362,
+					"width": 2240,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://d3bfab7b-b503-4d45-b9b2-0fbeb2f7fdf8",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/05-Garden_delights.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/05-Garden_delights.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"supports": [
+												"canonicalLinkHeader",
+												"profileLinkHeader",
+												"mirroring",
+												"rotationArbitrary",
+												"sizeAboveFull"
+											],
+											"qualities": [
+												"default",
+												"color",
+												"gray",
+												"bitonal"
+											],
+											"formats": [
+												"jpg",
+												"png",
+												"gif",
+												"webp"
+											]
+										}
+									]
+								},
+								"height": 2362,
+								"width": 2240
+							},
+							"on": "http://f18cdfb9-f6a5-461a-9dea-acf7605f72e1"
+						}
+					],
+					"related": "1480-1490 by Hieronymus Bosch"
+				},
+				{
+					"@id": "http://5a878e67-ee34-4f05-8982-aca2a4376ca9",
+					"@type": "sc:Canvas",
+					"label": "The Seven Deadly Sins and the Four Last Things",
+					"height": 481,
+					"width": 534,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://5a2ee28c-e8c8-4607-907a-be43135e13fa",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/06-hieronymus.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/06-hieronymus.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"supports": [
+												"canonicalLinkHeader",
+												"profileLinkHeader",
+												"mirroring",
+												"rotationArbitrary",
+												"sizeAboveFull"
+											],
+											"qualities": [
+												"default",
+												"color",
+												"gray",
+												"bitonal"
+											],
+											"formats": [
+												"jpg",
+												"png",
+												"gif",
+												"webp"
+											]
+										}
+									]
+								},
+								"height": 481,
+								"width": 534
+							},
+							"on": "http://5a878e67-ee34-4f05-8982-aca2a4376ca9"
+						}
+					],
+					"related": "by Hieronymus Bosch (around 1500)"
+				},
+				{
+					"@id": "http://fd412dd0-6a38-4bf3-ad52-6031495866ae",
+					"@type": "sc:Canvas",
+					"label": "Marriage A-la-Mode: 2, The Tête à Tête ",
+					"height": 609,
+					"width": 800,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://3ea7cca7-3f92-4193-b06c-bd6eef3e4ce6",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/07-hogarth.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/07-hogarth.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"supports": [
+												"canonicalLinkHeader",
+												"profileLinkHeader",
+												"mirroring",
+												"rotationArbitrary",
+												"sizeAboveFull"
+											],
+											"qualities": [
+												"default",
+												"color",
+												"gray",
+												"bitonal"
+											],
+											"formats": [
+												"jpg",
+												"png",
+												"gif",
+												"webp"
+											]
+										}
+									]
+								},
+								"height": 609,
+								"width": 800
+							},
+							"on": "http://fd412dd0-6a38-4bf3-ad52-6031495866ae"
+						}
+					],
+					"related": "about 1743 by William Hogarth "
+				},
+				{
+					"@id": "http://dfbe87c1-46e8-44f9-9c51-c6d4132e1ec9",
+					"@type": "sc:Canvas",
+					"label": "\"Lust.” - ‘The Seven Deadly Sins.’ ",
+					"height": 510,
+					"width": 325,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://5e20596d-9a24-46ca-9dc5-5f824dec199c",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/08-potocki.png/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/08-potocki.png",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"supports": [
+												"canonicalLinkHeader",
+												"profileLinkHeader",
+												"mirroring",
+												"rotationArbitrary",
+												"sizeAboveFull"
+											],
+											"qualities": [
+												"default",
+												"color",
+												"gray",
+												"bitonal"
+											],
+											"formats": [
+												"jpg",
+												"png",
+												"gif",
+												"webp"
+											]
+										}
+									]
+								},
+								"height": 510,
+								"width": 325
+							},
+							"on": "http://dfbe87c1-46e8-44f9-9c51-c6d4132e1ec9"
+						}
+					],
+					"related": "(2017) by Gail Potocki"
+				},
+				{
+					"@id": "http://c7aab6dd-2230-49ef-8cfb-fb67b731b10e",
+					"@type": "sc:Canvas",
+					"label": "Francesca da Rimini 1",
+					"height": 712,
+					"width": 840,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://7af3a778-9be4-4c7c-8ee2-0ab002f96d97",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/09-scheffer.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/09-scheffer.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"supports": [
+												"canonicalLinkHeader",
+												"profileLinkHeader",
+												"mirroring",
+												"rotationArbitrary",
+												"sizeAboveFull"
+											],
+											"qualities": [
+												"default",
+												"color",
+												"gray",
+												"bitonal"
+											],
+											"formats": [
+												"jpg",
+												"png",
+												"gif",
+												"webp"
+											]
+										}
+									]
+								},
+								"height": 712,
+								"width": 840
+							},
+							"on": "http://c7aab6dd-2230-49ef-8cfb-fb67b731b10e"
+						}
+					],
+					"related": "1835 by Ary Scheffer "
+				},
+				{
+					"@id": "http://85fb8abb-37ac-40a7-920f-90debcb916df",
+					"@type": "sc:Canvas",
+					"label": "The Punishment of Lust ",
+					"height": 257,
+					"width": 454,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://19b2bc73-410a-480f-944c-dc7b87f9b576",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/10-segantini.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/10-segantini.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"supports": [
+												"canonicalLinkHeader",
+												"profileLinkHeader",
+												"mirroring",
+												"rotationArbitrary",
+												"sizeAboveFull"
+											],
+											"qualities": [
+												"default",
+												"color",
+												"gray",
+												"bitonal"
+											],
+											"formats": [
+												"jpg",
+												"png",
+												"gif",
+												"webp"
+											]
+										}
+									]
+								},
+								"height": 257,
+								"width": 454
+							},
+							"on": "http://85fb8abb-37ac-40a7-920f-90debcb916df"
+						}
+					],
+					"related": "(1891) by Giovanni Segantini"
+				},
+				{
+					"@id": "http://28d84810-9332-41b8-ab38-92f383f43f43",
+					"@type": "sc:Canvas",
+					"label": "The Seven Deadly Sins – Lust ",
+					"height": 944,
+					"width": 936,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://5aae67fc-44c1-48ea-ba1b-34265905f811",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/11-weight.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/11-weight.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"supports": [
+												"canonicalLinkHeader",
+												"profileLinkHeader",
+												"mirroring",
+												"rotationArbitrary",
+												"sizeAboveFull"
+											],
+											"qualities": [
+												"default",
+												"color",
+												"gray",
+												"bitonal"
+											],
+											"formats": [
+												"jpg",
+												"png",
+												"gif",
+												"webp"
+											]
+										}
+									]
+								},
+								"height": 944,
+								"width": 936
+							},
+							"on": "http://28d84810-9332-41b8-ab38-92f383f43f43"
+						}
+					],
+					"related": "(1979-80) by Carel Victor Morlais Weight "
+				},
+				{
+					"@id": "http://b0066e9d-fd8b-425f-a2aa-650748b0be0a",
+					"@type": "sc:Canvas",
+					"label": "The Nightmare ",
+					"height": 2442,
+					"width": 3013,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://d6515440-7399-4221-855a-b139f7e20ddb",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/12-fuseli.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://6012.cophilab-cloud.ilc.cnr.it/share/vices-and-virtues-2/12-fuseli.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"supports": [
+												"canonicalLinkHeader",
+												"profileLinkHeader",
+												"mirroring",
+												"rotationArbitrary",
+												"sizeAboveFull"
+											],
+											"qualities": [
+												"default",
+												"color",
+												"gray",
+												"bitonal"
+											],
+											"formats": [
+												"jpg",
+												"png",
+												"gif",
+												"webp"
+											]
+										}
+									]
+								},
+								"height": 2442,
+								"width": 3013
+							},
+							"on": "http://b0066e9d-fd8b-425f-a2aa-650748b0be0a"
+						}
+					],
+					"related": "(1781) by Henry Fuseli"
+				}
+			]
+		}
+	],
+	"structures": []
+}
