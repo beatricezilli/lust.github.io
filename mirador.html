@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lust - project at Ca' Foscari</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://cdn.jsdelivr.net/npm/mirador@3.0.0/dist/mirador.min.js"></script>
+</head>
+<body>
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+      <a href="#home" class="w3-bar-item w3-button">Lust in art</a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+         <a href="#about" class="w3-bar-item w3-button">About</a>
+        <a href="#lust" class="w3-bar-item w3-button">Lust</a>
+        <a href="#gender" class="w3-bar-item w3-button">Gender</a>
+        <a href="#images" class="w3-bar-item w3-button">Images</a>
+        <a href="#bibliography" class="w3-bar-item w3-button">Bibliography</a>
+        <a href="#contributions" class="w3-bar-item w3-button">Contributions</a>
+      </div>
+    </div>
+  </div>
+
+  <div style="height:100px;" id="my-mirador"></div>
+
+<script type="text/javascript">
+    var mirador = Mirador.viewer({
+    "id": "my-mirador",
+    "manifests": {
+    "manifest_Lust.json" : {
+    "provider": "IIIF Tutorial University of Venice"
+     }
+    },
+  "windows": [
+    {
+      "loadedManifest": "manifest_Lust.json",
+      "canvasIndex": 2,
+      "thumbnailNavigationPosition": 'far-bottom'
+      }
+    ]
+  });
+  </script>
+</html>
