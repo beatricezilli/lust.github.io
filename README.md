@@ -1,6 +1,7 @@
 # Lust in the paintings 
 
 This project was created by [Beatrice Zilli](https://github.com/beatricezilli) and [Antony Persianov](https://github.com/antonpersi) as the final output of the Modelling and Visualizing Textual Data course held at Ca' Foscari Venice University by Professors Tiziana Mancinelli and Antonio Montefusco. 
+You can look at the project here: 
 
 # About the project 
 
