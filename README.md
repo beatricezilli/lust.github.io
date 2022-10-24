@@ -28,7 +28,7 @@ In creating this process, we also used ontologies to create a RDF triple. The Re
 # Visualization
 
 The employ of [IIIF](https://iiif.io) made it possible to have a visual representation of our model. The International Image Interoperability Framework (IIIF) standard specifies two APIs that provide access to digital images and information (metadata). It not only defines a standarized method of describing and delivering images on the web, but it also helps, through metadata and consistent API, in solving the problem of replication of data, that could put at risk the quality and information about images.
-A key aspect of a digital project should be interactivity, and we achieved this through the use of IIIF, [Mirador](https://projectmirador.org) and [OpenSeaDragon](https://openseadragon.github.io). In order to make our project less academic and more interactive, we embedded a web page where the user can play with images, different sizes and details of the illustrations. In this way, 
+A key aspect of a digital project should be interactivity, and we achieved this through the use of IIIF, [Mirador](https://projectmirador.org) and [OpenSeaDragon](https://openseadragon.github.io). In order to make our project less academic and more interactive, we embedded a web page where the user can play with images, different sizes and details of the illustrations. In this way, the visitor ofour webpage can both read the texts and description we made, but also explore him or herself the topic 
 
 Once set that steps, we divided the tasks as follow: 
 ### Beatrice 
