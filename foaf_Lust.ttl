@@ -5,31 +5,29 @@
 
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-<https://samanthabroking.github.io/samanthabroking/foaf.ttl#me># ???? I will ask girls
-   a foaf:Person ;
-   foaf:givenName "Anton Dmitrievich Persianov" ;
-   foaf:workInfoHomepage <https://github.com/antonpersi/DPHtest.github.io> ; # Here I just put my old project, after I add new for final representation
-   foaf:nick "Anthony" ;
-   foaf:mbox "antoniopersianov@gmail.com" ;
-   foaf:age "24" ;
-   foaf:knows "Beatrice" .
+<https://antonpersi.github.io/antonpersi/foaf.ttl#me> a foaf:Person ;
+    foaf:age "24" ;
+    foaf:givenName "Anton Dmitrievich Persianov" ;
+    foaf:knows "Beatrice" ;
+    foaf:mbox "antoniopersianov@gmail.com" ;
+    foaf:nick "Anthony" ;
+    foaf:workInfoHomepage <https://github.com/antonpersi/DPHtest.github.io> .
 
-<https://github.com/beatricezilli/foaf.ttl#me> # left for you
-  a foaf:Person ;
-  foaf:givenName "Betrice Zilli" ;
-  foaf:nick "Beatrice" ;
-  foaf:workInfoHomepage <https://github.com/beatricezilli/modelling_project.github.io> ; # left for you
-  foaf:mbox "beatricezilli98@gmail.com" ; # left for you
-  foaf:age "23" ; # left for you
-  foaf:knows "Anton".
+<https://beatricezilli.github.io/beatricezilli/foaf.ttl#me> a foaf:Person ;
+    foaf:age " 23 " ;
+    foaf:givenName "Beatrice Zilli" ;
+    foaf:knows "Anton" ;
+    foaf:mbox "beatricezilli98@gmail.com" ;
+    foaf:nick "Bea" ;
+    foaf:workInfoHomepage <https://github.com/beatricezilli/modelling_project.github.io> .
 
 _________________________________________
 
 <?xml version="1.0" encoding="utf-8" ?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" # ???? I will ask girls
-         xmlns:foaf="http://xmlns.com/foaf/0.1/"> # ???? I will ask girls
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"  
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"> 
 
-  <foaf:Person rdf:about="https://samanthabroking.github.io/samanthabroking/foaf.ttl#me"> #???? I will ask girls
+  <foaf:Person rdf:about="https://antonpersi.github.io/antonpersi/foaf.ttl#me"> 
     <foaf:givenName>Anton Dmitrievich Persianov</foaf:givenName>
     <foaf:workInfoHomepage rdf:resource="https://github.com/antonpersi/DPHtest.github.io"/>
     <foaf:nick>Anthony</foaf:nick>
@@ -38,12 +36,12 @@ _________________________________________
     <foaf:knows>Beatrice</foaf:knows>
   </foaf:Person>
 
-  <foaf:Person rdf:about="https://github.com/-----?-----/foaf.ttl#me"> # ???? I will ask girls
-    <foaf:givenName>Beatrice Zilli</foaf:givenName> # left for you
-    <foaf:nick>Bea</foaf:nick> # left for you
-    <foaf:workInfoHomepage rdf:resource="https://github.com/beatricezilli/modelling_project.github.io> # left for you
-    <foaf:mbox>beatricezilli98@gmail.com</foaf:mbox># left for you
-    <foaf:age> 23 </foaf:age> # left for you
+  <foaf:Person rdf:about="https://beatricezilli.github.io/beatricezilli/foaf.ttl#me"> 
+    <foaf:givenName>Beatrice Zilli</foaf:givenName> 
+    <foaf:nick>Bea</foaf:nick> 
+    <foaf:workInfoHomepage rdf:resource="https://github.com/beatricezilli/modelling_project.github.io"/> 
+    <foaf:mbox>beatricezilli98@gmail.com</foaf:mbox>
+    <foaf:age> 23 </foaf:age> 
     <foaf:knows>Anton</foaf:knows>
   </foaf:Person>
 
