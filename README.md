@@ -16,7 +16,6 @@ As pointed out by Sahle et al. in <i> Modelling: Thinking in Practice. An Introd
 The first step to create this model was building a [conceptual map](https://miro.com/app/board/uXjVO_zZzUo=/?share_link_id=851890614963) on Miro. Through formal and standardized knowledge representations, known as ontologies, we realized a conceptual model made of entities, attributes and relations that helps the reader understand the web content, but that also helped us bearing in mind the structure we wanted our project to have. 
 After that, we focused on finding the images of the paintings we selected for our project, which had to be in a good resolution and not subjected by copyright. Our lab assitant, [Valerio Remediani](https://github.com/VRemediani), then helped us get the IIIF urls of the images so we could implement the website with OpenSeaDragon and Mirador viewer. 
 In creating this process, we also used ontologies to create a RDF triple. The Resource Description Framework is one of the most significant applications of graphs developed by the W3C consortium. With RDF, information about entities is transmitted in a way that is understandable to both humans and machines. This is done through triple, formal statements consisting of a subject, a predicate, and an object. The information about the subject, the predicate and the object is as far as possible expressed as an Internationalized Resource Identifier (IRI).
-This is the original XML-RDF document:
 
 
 ### Triples of the Data Model
@@ -24,6 +23,12 @@ This is the original XML-RDF document:
 
 ### Graph of the data model
 <img width="989" alt="Снимок экрана 2022-10-24 в 15 33 51" src="https://user-images.githubusercontent.com/99298812/197538303-2c126aa4-3841-48d7-81ed-ecfe8799c874.png">
+
+
+# Visualization
+
+The employ of IIIF made it possible to have a visual representation of our model. The International Image Interoperability Framework (IIIF) standard specifies two APIs that provide access to digital images and information (metadata). It not only defines a standarized method of describing and delivering images on the web, but it also helps, through metadata and consistent API, in solving the problem of replication of data, that could put at risk the quality and information about images.
+A key aspect of a digital project should be interactivity, and we achieved this through the use of IIIF, Mirador and OpenSeaDragon. In order to make our project less academic and more interactive, we embedded a web page 
 
 Once set that steps, we divided the tasks as follow: 
 ### Beatrice 
