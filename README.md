@@ -73,15 +73,15 @@ The project was ideated and created by the both of us in collaboration, the diff
 2.	Burke, J., (2006) _Sex and Spirituality in 1500s Rome: Sebastiano del Piombo's Martyrdom of Saint Agatha_, The Art Bulletin, 88:3, 482-495, DOI: 10.1080/00043079.2006.10786301
 3.	Ciula, A., Eide, Ø., Marras, C., & Sahle, P. (2018), _Modelling: Thinking in Practice; An Introduction_. Historical Social Research, Supplement, 31, 7-29. doi: https://doi.org/10.12759/hsr.suppl.31.2018.7-29.
 4.	Connell, R. W. (1987) _Gender and power_, Stanford, CA: Stanford University Press.  [Google Scholar]
-5.	Dubois, D. 2001. _“Seeing the female body differently:” Gender issues in The Silence of the Lambs_. Journal of Gender Studies, [Taylor & Francis Online], [Web of Science ®], [Google Scholar]
+5.	Dubois, D. 2001. _"Seeing the female body differently:" Gender issues in The Silence of the Lambs_. Journal of Gender Studies, [Taylor & Francis Online], [Web of Science ®], [Google Scholar]
 7.	Flanders, J. and Jannidis, F. (eds) (2019) _The shape of data in the digital humanities: modeling texts and text-based resources._ London ; New York: Routledge, Taylor & Francis Group.
-8.	Frueh, J., _“The Erotic as Social Security”_, Art Journal 53, no. 1 (March 1, 1994): 66–72, https://doi.org/10.1080/00043249.1994.10791609.
-9.	_“Gender and Sexuality”_, Google Art and Culture, accessed October 23, 2022, https://artsandculture.google.com/usergallery/gender-and-sexuality/KAJCzenSqPEYJA
-10.  Lynne Oliva, _“Art Lust: Desire and the Work of Picasso and Klimt,”_ Psychoanalytic Perspectives 7, no. 2 (November 2010): 244–58, https://doi.org/10.1080/1551806X.2010.10473093.
+8.	Frueh, J., _'The Erotic as Social Security'_, Art Journal 53, no. 1 (March 1, 1994): 66–72, https://doi.org/10.1080/00043249.1994.10791609.
+9.	_'Gender and Sexuality'_, Google Art and Culture, accessed October 23, 2022, https://artsandculture.google.com/usergallery/gender-and-sexuality/KAJCzenSqPEYJA
+10.  Lynne Oliva, _'Art Lust: Desire and the Work of Picasso and Klimt'_, Psychoanalytic Perspectives 7, no. 2 (November 2010): 244–58, https://doi.org/10.1080/1551806X.2010.10473093.
 11.  McCarty, W., _Modeling: A Study in Words and Meanings_, in <i> A Companion to Digital Humanities </i>, 254 - 270, 
  (2007), DOI:10.1002/9780470999875.ch19
 12.  Pritchard, W. (2009) _‘Woman, that fair Copy’: gender and painting in English writing_, 1650–1700, Word & Image, 25:1, 75-84, DOI: 10.1080/02666280802048271
-13.  Pruitt, D., C., _“It Rhymes with Lust? Matt Baker and the Ironic Politics of Race, Sex and Gender in the Golden Age”_, Journal of Graphic Novels and Comics 7, no. 2 (April 2, 2016): 197–209, https://doi.org/10.1080/21504857.2015.1135470.
+13.  Pruitt, D., C., _'It Rhymes with Lust? Matt Baker and the Ironic Politics of Race, Sex and Gender in the Golden Age'_, Journal of Graphic Novels and Comics 7, no. 2 (April 2, 2016): 197–209, https://doi.org/10.1080/21504857.2015.1135470.
 14.	 Wertham, F. (2004) _Seduction of the Innocent_. Reprint, Laurel, NY: Main Road Books. [Google Scholar]
 
 
