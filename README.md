@@ -69,17 +69,20 @@ The project was ideated and created by the both of us in collaboration, the diff
 
 # Resources 
 
-1.	Ciula, A., Eide, Ø., Marras, C., & Sahle, P. (2018). Modelling: Thinking in Practice; An Introduction. Historical Social Research, Supplement, 31, 7-29. doi: https://doi.org/10.12759/hsr.suppl.31.2018.7-29.
-2.	Connell, R. W. 1987. Gender and power, Stanford, CA: Stanford University Press.  [Google Scholar]
-3.	Dubois, D. 2001. “Seeing the female body differently:” Gender issues in The Silence of the Lambs. Journal of Gender Studies, [Taylor & Francis Online], [Web of Science ®], [Google Scholar]
-4.	Flanders, J. and Jannidis, F. (eds) (2019) The shape of data in the digital humanities: modeling texts and text-based resources. London ; New York: Routledge, Taylor & Francis Group.
-5.  Lynne Oliva, “Art Lust: Desire and the Work of Picasso and Klimt,” Psychoanalytic Perspectives 7, no. 2 (November 2010): 244–58, https://doi.org/10.1080/1551806X.2010.10473093.
-6.	“Gender and Sexuality,” Google Art and Culture, accessed October 23, 2022, https://artsandculture.google.com/exhibit/gender-and-sexuality/KAJCzenSqPEYJA.
-7.	Dwain Carlton Pruitt, “It Rhymes with Lust? Matt Baker and the Ironic Politics of Race, Sex and Gender in the Golden Age,” Journal of Graphic Novels and Comics 7, no. 2 (April 2, 2016): 197–209, https://doi.org/10.1080/21504857.2015.1135470.
-8.	Wertham, F. 2004. Seduction of the Innocent. Reprint, Laurel, NY: Main Road Books. [Google Scholar]
-9.	Joanna Frueh, “The Erotic as Social Security,” Art Journal 53, no. 1 (March 1, 1994): 66–72, https://doi.org/10.1080/00043249.1994.10791609.
-10.	Will Pritchard (2009) ‘Woman, that fair Copy’: gender and painting in English writing, 1650–1700, Word & Image, 25:1, 75-84, DOI: 10.1080/02666280802048271
-11.	Julia Marciari Alexander, ‘Beauties, Bawds and Bravura: The Critical History of Restoration Portraits of Women’, in Painted Ladies: Women at the Court of Charles II, eds Catherine MacLeod and Julia Marciari Alexander (London: National Portrait Gallery, 2001), pp. 62–71.
-12.	Jill Burke (2006) Sex and Spirituality in 1500s Rome: Sebastiano del Piombo's Martyrdom of Saint Agatha, The Art Bulletin, 88:3, 482-495, DOI: 10.1080/00043079.2006.10786301
+1.	Alexander, J., M., (2001) 'Beauties, Bawds and Bravura: The Critical History of Restoration Portraits of Women’, in _Painted Ladies: Women at the Court of Charles II_, eds Catherine MacLeod and Julia Marciari Alexander (London: National Portrait Gallery), pp. 62–71.
+2.	Burke, J., (2006) _Sex and Spirituality in 1500s Rome: Sebastiano del Piombo's Martyrdom of Saint Agatha_, The Art Bulletin, 88:3, 482-495, DOI: 10.1080/00043079.2006.10786301
+3.	Ciula, A., Eide, Ø., Marras, C., & Sahle, P. (2018), _Modelling: Thinking in Practice; An Introduction_. Historical Social Research, Supplement, 31, 7-29. doi: https://doi.org/10.12759/hsr.suppl.31.2018.7-29.
+4.	Connell, R. W. (1987) _Gender and power_, Stanford, CA: Stanford University Press.  [Google Scholar]
+5.	Dubois, D. 2001. _“Seeing the female body differently:” Gender issues in The Silence of the Lambs_. Journal of Gender Studies, [Taylor & Francis Online], [Web of Science ®], [Google Scholar]
+7.	Flanders, J. and Jannidis, F. (eds) (2019) _The shape of data in the digital humanities: modeling texts and text-based resources._ London ; New York: Routledge, Taylor & Francis Group.
+8.	Frueh, J., _“The Erotic as Social Security”_, Art Journal 53, no. 1 (March 1, 1994): 66–72, https://doi.org/10.1080/00043249.1994.10791609.
+9.	_“Gender and Sexuality”_, Google Art and Culture, accessed October 23, 2022, https://artsandculture.google.com/usergallery/gender-and-sexuality/KAJCzenSqPEYJA
+10.  Lynne Oliva, “Art Lust: Desire and the Work of Picasso and Klimt,” Psychoanalytic Perspectives 7, no. 2 (November 2010): 244–58, https://doi.org/10.1080/1551806X.2010.10473093.
+11.  McCarty, W., 'Modeling: A Study in Words and Meanings', in <i> A Companion to Digital Humanities </i>, 254 - 270, 
+ (2007), DOI:10.1002/9780470999875.ch19
+12.  Pritchard, W. (2009) ‘Woman, that fair Copy’: gender and painting in English writing, 1650–1700, Word & Image, 25:1, 75-84, DOI: 10.1080/02666280802048271
+13.  Pruitt, D., C., _“It Rhymes with Lust? Matt Baker and the Ironic Politics of Race, Sex and Gender in the Golden Age”_, Journal of Graphic Novels and Comics 7, no. 2 (April 2, 2016): 197–209, https://doi.org/10.1080/21504857.2015.1135470.
+14.	 Wertham, F. (2004) Seduction of the Innocent. Reprint, Laurel, NY: Main Road Books. [Google Scholar]
+
 
 
