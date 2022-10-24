@@ -3,6 +3,7 @@
 This project was created by [Beatrice Zilli](https://github.com/beatricezilli) and [Antony Persianov](https://github.com/antonpersi) as the final output of the Modelling and Visualizing Textual Data course held at Ca' Foscari Venice University by Professors Tiziana Mancinelli and Antonio Montefusco. 
 You can look at the project here: https://beatricezilli.github.io/lust.github.io/
 
+
 # Our research question
 
 Starting from the course's topic, namely Vices and Virtues, we decided to take into analysis the vice of Lust and investigate its representation in the paintings over the years in the history of art. The project aims at showing how the iconography of Lust changed throughout centuries and how its representation is connected with gender issues, in partiuclar the woman's image. 
@@ -29,8 +30,20 @@ In creating this process, we also used ontologies to create a RDF triple. The Re
 
 The employ of [IIIF](https://iiif.io) made it possible to have a visual representation of our model. The International Image Interoperability Framework (IIIF) standard specifies two APIs that provide access to digital images and information (metadata). It not only defines a standarized method of describing and delivering images on the web, but it also helps, through metadata and consistent API, in solving the problem of replication of data, that could put at risk the quality and information about images.
 A key aspect of a digital project should be interactivity, and we achieved this through the use of IIIF, [Mirador](https://projectmirador.org) and [OpenSeaDragon](https://openseadragon.github.io). In order to make our project less academic and more interactive, we embedded a web page where the user can play with images, different sizes and details of the illustrations. In this way, the visitor of our webpage can both read the texts and descriptions we made, but also explore him or herself the topic through the images, by zooming on the paintings and looking for details that could answer the research questions, following the timeline of the paintings from the most ancient to the most recent one, or surfing throughout the centuries. 
+One of the main purposes of models and modelling is, in fact, enhance learning and understanding, at two different stages: in the creation of it and in its application and following manipulation. This means that not only the user can learn from it, but that we also did in creating our project. 
 
-Once set that steps, we divided the tasks as follow: 
+For what regards the webpage layout, we tried to respect as much as possible the UI/UX good principles, using headbars to facilitate the navigation through the website, labels on the images, buttons, declaration of the contents and also presentation of the creators, namely us. We also followed the FAIR principles in the creation of our project: Findability, Accessibility, Interoperability and Reusability were guaranteed by uploading everything on GitHub, were all the data and metadata are accessible, retreivable and reusable by anyone.   
+
+
+# Conclusions 
+
+The goal of this project was to use web technologies such as Mirador Viewer, GitHub repository, IIIF Images, and digital ontologies to visualize a representation of Lust in art. The main idea was to produce a creative digital project that stood out from the more academic ones. An interactive and unusual depiction of the representation of Lust has been created by combining colors, images of various sizes, brief descriptions, and pills on ideas and concepts. With this project, we hope to encourage the user to explore and think critically about the art in general and the representation of Lust in it. Lust in art can now be experienced not only through paintings or sculptures, but also through web technologies.
+
+
+# Contributions 
+
+The project was ideated and created by the both of us in collaboration, the different tasks has been split as follow:
+
 ### Beatrice 
 * Website design with html 
 * OpenSeaDragon and Mirador 
@@ -43,11 +56,6 @@ Once set that steps, we divided the tasks as follow:
 * Text descriprions 
 * Bibliography research 
 
-We then upload everything on GitHub repository as collaborators. 
-
-
-# Visualization
-Our ability to provide a visual representation of our model was made possible by the use of IIIF. The International Image Interoperability Framework (IIIF) standard specifies two APIs that provide access to digital pictures and information. We used the Manifests, a digital display created to facilitate the use and study of lust, to realize our digital project. Additionally, we have a webpage where we experiment with images, different illustration sizes, and illustration details using IIIF, Mirador, and OpenSeaDragon. With the public's assistance, the initiative might be extended further.
 
 # Tool used 
 
@@ -56,24 +64,22 @@ Our ability to provide a visual representation of our model was made possible by
 - IIIF 
 - Brackets 
 - Miro 
+- RDF, Foaf.ttl
 
-# Conclusions 
-
-Lust is such a strong emotion that it has been a mainstay in mythology, religion, and literature. The emotions we feel when looking at these works are often mixed with our own desires for pleasure and power—which may not always align with those of the artist who created them. The goal of this project was to use web technologies such as Mirador Viewer, GitHub repository, IIIF Images, and digital ontologies to visualize a representation of Lust in art. The main idea was to create a creative digital project that stood out from the more formal ones visually appealing. An interactive and unusual depiction of the representation of Lust has been created by combining colors, images of various sizes, brief descriptions, and pills on ideas and concepts. With this project, we hope to encourage the user to explore and think critically about the art in general by posing questions about the vices and virtues. Lust in art can now be experienced not only through paintings or sculptures, but also through web technologies.
 
 # Resources 
 
-1.	Connell, R. W. 1987. Gender and power, Stanford, CA: Stanford University Press.  [Google Scholar]
-2.	Dubois, D. 2001. “Seeing the female body differently:” Gender issues in The Silence of the Lambs. Journal of Gender Studies, [Taylor & Francis Online], [Web of Science ®], [Google Scholar]
-3.	  Lynne Oliva, “Art Lust: Desire and the Work of Picasso and Klimt,” Psychoanalytic Perspectives 7, no. 2 (November 2010): 244–58, https://doi.org/10.1080/1551806X.2010.10473093.
-4.	“Gender and Sexuality,” Google Art and Culture, accessed October 23, 2022, https://artsandculture.google.com/exhibit/gender-and-sexuality/KAJCzenSqPEYJA.
-5.	Dwain Carlton Pruitt, “It Rhymes with Lust? Matt Baker and the Ironic Politics of Race, Sex and Gender in the Golden Age,” Journal of Graphic Novels and Comics 7, no. 2 (April 2, 2016): 197–209, https://doi.org/10.1080/21504857.2015.1135470.
-6.	Wertham, F. 2004. Seduction of the Innocent. Reprint, Laurel, NY: Main Road Books. [Google Scholar]
-7.	Joanna Frueh, “The Erotic as Social Security,” Art Journal 53, no. 1 (March 1, 1994): 66–72, https://doi.org/10.1080/00043249.1994.10791609.
-8.	Will Pritchard (2009) ‘Woman, that fair Copy’: gender and painting in English writing, 1650–1700, Word & Image, 25:1, 75-84, DOI: 10.1080/02666280802048271
-9.	Julia Marciari Alexander, ‘Beauties, Bawds and Bravura: The Critical History of Restoration Portraits of Women’, in Painted Ladies: Women at the Court of Charles II, eds Catherine MacLeod and Julia Marciari Alexander (London: National Portrait Gallery, 2001), pp. 62–71.
-10.	Jill Burke (2006) Sex and Spirituality in 1500s Rome: Sebastiano del Piombo's Martyrdom of Saint Agatha, The Art Bulletin, 88:3, 482-495, DOI: 10.1080/00043079.2006.10786301
-
-
+1.	Ciula, A., Eide, Ø., Marras, C., & Sahle, P. (2018). Modelling: Thinking in Practice; An Introduction. Historical Social Research, Supplement, 31, 7-29. doi: https://doi.org/10.12759/hsr.suppl.31.2018.7-29.
+2.	Connell, R. W. 1987. Gender and power, Stanford, CA: Stanford University Press.  [Google Scholar]
+3.	Dubois, D. 2001. “Seeing the female body differently:” Gender issues in The Silence of the Lambs. Journal of Gender Studies, [Taylor & Francis Online], [Web of Science ®], [Google Scholar]
+4.	Flanders, J. and Jannidis, F. (eds) (2019) The shape of data in the digital humanities: modeling texts and text-based resources. London ; New York: Routledge, Taylor & Francis Group.
+5.  Lynne Oliva, “Art Lust: Desire and the Work of Picasso and Klimt,” Psychoanalytic Perspectives 7, no. 2 (November 2010): 244–58, https://doi.org/10.1080/1551806X.2010.10473093.
+6.	“Gender and Sexuality,” Google Art and Culture, accessed October 23, 2022, https://artsandculture.google.com/exhibit/gender-and-sexuality/KAJCzenSqPEYJA.
+7.	Dwain Carlton Pruitt, “It Rhymes with Lust? Matt Baker and the Ironic Politics of Race, Sex and Gender in the Golden Age,” Journal of Graphic Novels and Comics 7, no. 2 (April 2, 2016): 197–209, https://doi.org/10.1080/21504857.2015.1135470.
+8.	Wertham, F. 2004. Seduction of the Innocent. Reprint, Laurel, NY: Main Road Books. [Google Scholar]
+9.	Joanna Frueh, “The Erotic as Social Security,” Art Journal 53, no. 1 (March 1, 1994): 66–72, https://doi.org/10.1080/00043249.1994.10791609.
+10.	Will Pritchard (2009) ‘Woman, that fair Copy’: gender and painting in English writing, 1650–1700, Word & Image, 25:1, 75-84, DOI: 10.1080/02666280802048271
+11.	Julia Marciari Alexander, ‘Beauties, Bawds and Bravura: The Critical History of Restoration Portraits of Women’, in Painted Ladies: Women at the Court of Charles II, eds Catherine MacLeod and Julia Marciari Alexander (London: National Portrait Gallery, 2001), pp. 62–71.
+12.	Jill Burke (2006) Sex and Spirituality in 1500s Rome: Sebastiano del Piombo's Martyrdom of Saint Agatha, The Art Bulletin, 88:3, 482-495, DOI: 10.1080/00043079.2006.10786301
 
 
