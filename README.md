@@ -12,8 +12,19 @@ Lust is classified by the Christian tradition as one of the seven capital sins. 
 
 # Modelling process 
 As pointed out by Sahle et al. in <i> Modelling: Thinking in Practice. An Introduction </i> (2018), the practice of modelling as "explanatory, exploratory and empirical strategies of enquiry" has gain much recognition and attention over the last decades among scientists and scholars, especially with the advent of Digital Humanities that made this practice a core one. Julia Flanders and Fotis Jannidis in their paper <i> A gentle introduction to Data Modelling </i> (2018) point out the importance of models and modelling in different digital humanities activities, such as creating databases, digital editions, softwares and so on. Modelling is the basic of every digital scholarly project, including this one. The concept of modelling is hard to deifne, but a model is always a kind of mapping, it represents an object, a concept, a research question through different forms of expression that could be visual diagrams, theoretical ideas, images and so on. In our case, our model is the process of creation of an idea that can visually portray information and interpretations on the vice of Lust, it's representation in the paintings, and it's relation to the feminine figure.  
+
 The first step to create this model was building a [conceptual map](https://miro.com/app/board/uXjVO_zZzUo=/?share_link_id=851890614963) on Miro. Through formal and standardized knowledge representations, known as ontologies, we realized a conceptual model made of entities, attributes and relations that helps the reader understand the web content, but that also helped us bearing in mind the structure we wanted our project to have. 
 After that, we focused on finding the images of the paintings we selected for our project, which had to be in a good resolution and not subjected by copyright. Our lab assitant, [Valerio Remediani](https://github.com/VRemediani), then helped us get the IIIF urls of the images so we could implement the website with OpenSeaDragon and Mirador viewer. 
+In creating this process, we also used ontologies to create a RDF triple. The Resource Description Framework is one of the most significant applications of graphs developed by the W3C consortium. With RDF, information about entities is transmitted in a way that is understandable to both humans and machines. This is done through triple, formal statements consisting of a subject, a predicate, and an object. The information about the subject, the predicate and the object is as far as possible expressed as an Internationalized Resource Identifier (IRI).
+This is the original XML-RDF document:
+
+
+### Triples of the Data Model
+<img width="1247" alt="Снимок экрана 2022-10-24 в 15 32 21" src="https://user-images.githubusercontent.com/99298812/197537948-6d9142a6-3ade-43a8-8107-ec191da383ec.png">
+
+### Graph of the data model
+<img width="989" alt="Снимок экрана 2022-10-24 в 15 33 51" src="https://user-images.githubusercontent.com/99298812/197538303-2c126aa4-3841-48d7-81ed-ecfe8799c874.png">
+
 Once set that steps, we divided the tasks as follow: 
 ### Beatrice 
 * Website design with html 
@@ -29,14 +40,6 @@ Once set that steps, we divided the tasks as follow:
 
 We then upload everything on GitHub repository as collaborators. 
 
-# Modelling process
-During the process, we used Ontology Foaf to create an RDF triple. The Resource Description Framework is one of the most significant applications of graphs developed by the W3C consortium. With RDF, information about entities is transmitted in a way that is understandable to both humans and machines. This is done through triple, formal statements consisting of a subject, a predicate, and an object. 
-
-### Triples of the Data Model
-<img width="1247" alt="Снимок экрана 2022-10-24 в 15 32 21" src="https://user-images.githubusercontent.com/99298812/197537948-6d9142a6-3ade-43a8-8107-ec191da383ec.png">
-
-### Graph of the data model
-<img width="989" alt="Снимок экрана 2022-10-24 в 15 33 51" src="https://user-images.githubusercontent.com/99298812/197538303-2c126aa4-3841-48d7-81ed-ecfe8799c874.png">
 
 # Visualization
 Our ability to provide a visual representation of our model was made possible by the use of IIIF. The International Image Interoperability Framework (IIIF) standard specifies two APIs that provide access to digital pictures and information. We used the Manifests, a digital display created to facilitate the use and study of lust, to realize our digital project. Additionally, we have a webpage where we experiment with images, different illustration sizes, and illustration details using IIIF, Mirador, and OpenSeaDragon. With the public's assistance, the initiative might be extended further.
